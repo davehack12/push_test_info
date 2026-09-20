@@ -1,0 +1,4 @@
+BOT_TOKEN = "8524198244:AAF1b9AH9YZsO8HFK2loACyurTgaYvoJoOg"
+CHAT_ID   = "7790529288"
+LIMIT     = 20
+DB_PATH   = "counter.db"
