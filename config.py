@@ -1,4 +1,7 @@
-BOT_TOKEN = "8524198244:AAF1b9AH9YZsO8HFK2loACyurTgaYvoJoOg"
-CHAT_ID   = "7790529288"
-LIMIT     = 20
-DB_PATH   = "counter.db"
+import os
+
+BOT_TOKEN = os.environ["BOT_TOKEN"]
+CHAT_ID   = os.environ["CHAT_ID"]
+LIMIT     = int(os.environ.get("LIMIT", "20"))
+DB_PATH   = os.environ.get("DB_PATH", "counter.db")
+API_KEY   = os.environ["API_KEY"]
